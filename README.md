@@ -1,4 +1,4 @@
-### Summary of How All Components Fit Together in the App
+## Summary of How All Components Fit Together in the App
 
 The app provides **relocation insights** for users by integrating data from multiple sources (weather, GDP, and AI-generated insights). Below is a high-level summary of how each section contributes to the overall functionality:
 
@@ -53,7 +53,7 @@ def generate_relocation_insights(city, weather_summary, gdp_summary):
 
 6. **Streamlit App Logic**
 
-# User Input
+### User Input
 city = st.text_input("Enter the city you want to relocate to:", "Berlin")
 country_code = st.text_input("Enter the country code for the city:", "DE")
 ...
